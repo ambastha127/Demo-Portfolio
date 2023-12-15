@@ -1,0 +1,278 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    height: 60px;
+    background-color: rgb(8, 7, 7);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+} 
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: chartreuse;
+    cursor: pointer; 
+    transition: all 0.5s ease-in;
+}
+.left{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 170px 0;
+
+}
+.firstsection>div{
+    width: 30%;
+}
+.leftsection{
+    width: 30%;
+    font-size: 2rem;
+}
+.rightsection img{
+    height: 50%;
+    width: 50%;
+    filter: invert();
+}
+.name{
+    color: chartreuse;
+}
+.img1 {
+    width: 70px;
+    position: relative;
+    top: -65px;
+    right: 35px;
+}
+.img3{
+    position: relative;
+    width: 50px;
+    top: -55px;
+    right: 25px;
+}
+.img2{
+    position: relative;
+    width: 35px;
+    top: -40px;
+    right: 19px;
+}
+.img4{
+    position: relative;
+    width: 40px;
+    top: -45px;
+    right: 17px;
+}
+.img5{
+    position: relative;
+    width: 65px;
+    top: -65px;
+    right: 30px;
+}
+
+.title{
+    position: relative;
+    color: chartreuse;
+    top: 50px;
+    right:5px;
+    width: 150px;
+    font-size: 18px;
+}
+.description{
+    position: relative;
+    top: 65px;
+    width: 150px;
+    font-size: 13px;
+    right:5px;
+}
+.title2{
+    position: relative;
+    color: chartreuse;
+    top: 45px;
+    right: 10px;
+    font-size: 18px;
+}
+.title3{
+    position: relative;
+    color: chartreuse;
+    top: 20px;
+    right: 5px;
+    font-size: 18px;
+}
+.title4{
+    position: relative;
+    top: 30px;
+    font-size: 17px;
+    right: 5px;
+    color: chartreuse;
+}
+.title5{
+    color: chartreuse;
+    position: relative;
+    top: 35px;
+    font-size: 18px;
+    right: 5px;
+}
+.title6{
+    color: chartreuse;
+    position: relative;
+    top: 18px;
+}
+.description3{
+    position: relative;
+    width: 150px;
+    font-size: 13px;
+    top: 48px;
+}
+.description4{
+    position: relative;
+    width: 150px;
+    font-size: 13px;
+    top: 53px;
+}
+.description1{
+    position: relative;
+    top: 60px;
+    width: 150px;
+    font-size: 13px;
+}
+.description5{
+    position: relative;
+    top: 30px;
+    width: 150px;
+    font-size: 13px;
+}
+#element{
+    color: chartreuse;
+}
+.secondsection{
+    max-width: 85vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.8rem;
+}
+.box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 60px 0;
+    display: flex;
+}
+.vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.text{
+    color: darkgrey;
+    /* margin-top: 40px; */
+}
+main hr{
+    width: 93%;
+    margin: 40px 40px;
+}
+.box2{
+    height: 100vh;
+        background-color: rgb(13, 14, 14);
+    width: 100%;
+    /* display: flex; */
+}
+.my-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.box2 h1{
+    font-family:'Lucida Sans';
+    padding: 2rem;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.projects{
+    margin: auto;
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    align-items: center;
+}
+.projects h2:hover{
+    color: chartreuse;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(16, 20, 20);
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 h2{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.footer2{
+    margin: 6rem;
+}
+.footer3{
+    margin: 6rem;
+}
+.footer2 li{
+    list-style: none;
+    padding: 10px;
+}
+.footer3 li{
+    list-style: none;
+    padding: 10px;
+}
+.centertext{
+    text-align: center;
+    color: gray;
+}
+.btn1{
+    padding: 5px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn2{
+    padding: 5px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
